@@ -1,5 +1,5 @@
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
-![](/img/logo_large.png?raw=true "Title")
+![](/img/logo_large.png?raw=true "Logo")
 
 # About the project
 The aim of this project is to provide a fully-featured and generic plateform to create all kinds of ESP based RC car. 
