@@ -8,8 +8,17 @@ From custom hardware to high-end API, everything is built from the ground-up.
 # Current state
 A first working POC has been made and tested successfully. However, there is still lots of things to do and maintenaing everything myself is not possible. 
 
-# Tested hardware
-For now on, ESP12f-based dev board, and L298N. However it should work with any other ESP board - H-bridge couple with minor changes.
+# Hardware
+For now on, <b>ESP12f-based</b> dev board, and <b>L298N</b>. However it should work with any other ESP board - H-bridge couple with minor changes.<br>
+<br>
+The overall architecture is pretty straight forward : 
+ - The ESP board and motor drivers are placed inside the car
+ - The ESP creates a Wifi AP and start-up a UDP server
+ - The android smartphone connect to the Wifi AP
+ - The App communicate starts a UDP client and communicate with the car
+ 
+<br>
+<img src="/img/diagram.png" alt="drawing" width="500"/>
 
 # 🧰 PCB Design
 The custom designed PCB for holding all the electronic
