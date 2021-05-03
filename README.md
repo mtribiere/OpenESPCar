@@ -2,7 +2,8 @@
 ![](/img/logo_large.png?raw=true "Logo")
 
 # About the project
-The aim of this project is to provide a fully-featured and generic plateform to create all kinds of ESP based RC car. 
+Most cheap RC uses two DC motors, one for the direction, and the other to actually move forward and backward.<br>
+The aim of this project is to provide a fully-featured and generic plateform to create all kinds of ESP based vehicules.
 From custom hardware to high-end API, everything is built from the ground-up.
 
 # Current state
